@@ -161,7 +161,7 @@ onMounted(() => {
     // 压缩模型
     const dracoLoader = new DRACOLoader();
     dracoLoader.setDecoderPath(
-      "https://luckycheung.github.io/three/draco_decoder.js"
+      "https://luckycheung.github.io/demo-three/draco_decoder.js"
     );
     loader.setDRACOLoader(dracoLoader);
     // 加载模型

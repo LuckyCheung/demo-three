@@ -1,4 +1,4 @@
-https://luckycheung.github.io/three/
+https://luckycheung.github.io/demo-three/
 
 # Vue 3 + Vite
 

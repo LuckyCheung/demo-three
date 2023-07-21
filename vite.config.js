@@ -5,7 +5,7 @@ const pathResolve = (dir) => {
   return resolve(__dirname, ".", dir);
 };
 export default defineConfig({
-  base: "/three/",
+  base: "/demo-three/",
   plugins: [vue()],
   build: {
     rollupOptions: {
@@ -17,7 +17,7 @@ export default defineConfig({
     },
   },
   server: {
-    open: "/three/",
+    open: "/demo-three/",
   },
   resolve: {
     alias: {
